@@ -1,0 +1,71 @@
+body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: jura;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  /*.navigation ul li {
+    display: inline-flex;
+    float: right;
+    color: black;
+    text-align: center; 
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+   }*/
+  
+   .nav {
+     display: inline-block;
+   }
+  
+   .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color:black;
+    }
+  
+  .Content {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "aboutMe imgContainer";
+    background-color: whitesmoke
+  }
+  
+  .profilePic {
+    display: flex;
+    justify-content: center;
+    float: right; 
+  }
+
+  .footer {
+    /*background-color: rgba(128, 72, 19, 0.911);*/
+    background-color: #373738;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    text-align: center;
+  }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: flex-end;
+  }
+  
