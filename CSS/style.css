@@ -6,6 +6,11 @@ body {
   background-color: ivory;
 }
 
+@media screen and (max-widtch: 600px) {
+  mySkills: width: 100%;
+}
+
+}
 .logo {
   display: flex;
   justify-content: space-between;
